@@ -1,0 +1,2 @@
+# PoliCalendarBot
+BOT para la gestión de recordatorios de actividades del aula virtual, a través de mensajes que contienen la información de la actividad.  Información que consta consta con la actividad a ser entregada, la asignatura y la fecha de entrega de la misma. Ademas permitir al usuario establecer su propia configuración de intervalos de recordatorios, así como horas en las que se envíen las mismas.
