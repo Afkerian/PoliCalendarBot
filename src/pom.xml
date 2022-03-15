@@ -7,12 +7,16 @@
     <groupId>org.ammc</groupId>
     <artifactId>PoliCalendarBot</artifactId>
     <version>1.0-SNAPSHOT</version>
-
+    <properties>
+         <sonar.organization>afkerian</sonar.organization>
+         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+    </properties>
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
         <sonar.organization>afkerian</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
+
 
 </project>
