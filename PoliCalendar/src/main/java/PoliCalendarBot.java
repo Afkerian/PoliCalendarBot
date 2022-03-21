@@ -6,11 +6,11 @@ import java.util.List;
 public class PoliCalendarBot extends TelegramLongPollingBot {
 
     public String getBotUsername() {
-        return "PoliCalendarBot";
+        return "TelegramBotName";
     }
 
     public String getBotToken() {
-        return "5263577215:AAHnLBSIXxiuVqLAUBIn1XvD9RQIae8RUuE";
+        return "TelegramBotToken";
     }
 
     public void onRegister() {
