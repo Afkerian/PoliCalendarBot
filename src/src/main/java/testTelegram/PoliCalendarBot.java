@@ -37,6 +37,6 @@ public class PoliCalendarBot extends TelegramLongPollingBot {
 
     @Override
     public String getBotToken() {
-        return "1650255487:AAELdT_-BBQ2RvS63higt2Ni4mrBiE4YmRM";
+        return "";
     }
 }

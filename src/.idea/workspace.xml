@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6881faa-0533-4800-854d-dc29b6e20cd8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-    </list>
+    <list default="true" id="d6881faa-0533-4800-854d-dc29b6e20cd8" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,7 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1647312631963</updated>
       <workItem from="1647312633042" duration="955000" />
-      <workItem from="1647992150894" duration="3535000" />
+      <workItem from="1647992150894" duration="3811000" />
     </task>
     <servers />
   </component>
