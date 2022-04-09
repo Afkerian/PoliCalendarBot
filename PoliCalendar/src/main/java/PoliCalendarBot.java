@@ -31,7 +31,6 @@ public class PoliCalendarBot extends TelegramLongPollingBot {
     }
 
     public String getBotToken() {
-
         return TokenReader.readToken();
     }
 
