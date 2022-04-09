@@ -1,15 +1,16 @@
-import org.jetbrains.annotations.NotNull;
+
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Update;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
+
 
 import java.util.List;
 
 public class PoliCalendarBot extends TelegramLongPollingBot {
 
     @Override
-    public void onUpdateReceived(@NotNull Update update) {
+    public void onUpdateReceived(Update update) {
         SendMessage message = new SendMessage();
 
         if (update.hasMessage() && update.getMessage().hasText()) {
@@ -26,12 +27,12 @@ public class PoliCalendarBot extends TelegramLongPollingBot {
     }
 
     public String getBotUsername() {
-        return "PoliCalendarBot";
+        return TokenReader.readUserName();
     }
 
     public String getBotToken() {
 
-        return "5263577215:AAHnLBSIXxiuVqLAUBIn1XvD9RQIae8RUuE";
+        return TokenReader.readToken();
     }
 
 
