@@ -152,7 +152,7 @@ Siéntase libre de crear tantos [issues](https://github.com/Afkerian/PoliCalenda
 
 ## Powered by Intellij
 <p align="center">
-   <a href="https://www.jetbrains.com/?from=TelegramBots"><img src="jetbrains.png" width="75"></a>
+   <a href="https://www.jetbrains.com/"><img src="https://github.com/rubenlagus/TelegramBots/blob/master/jetbrains.png?raw=true" width="75"></a>
 </p>
 
 ---
@@ -186,3 +186,4 @@ probar sus cambios en PoliCalendar.
 
 
 PoliCalendar es [MIT licensed](./LICENSE).
+
