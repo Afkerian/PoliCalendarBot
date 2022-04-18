@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="PoliCalendar" target="1.5" />
+      <module name="PoliCalendar" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

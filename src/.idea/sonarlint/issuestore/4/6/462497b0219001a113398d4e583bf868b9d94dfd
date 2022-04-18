@@ -1,0 +1,6 @@
+
+j
+java:S1128"ORemove this unused import 'org.telegram.telegrambots.meta.api.objects.Message'.(Žëàûþÿÿÿÿ
+?
+java:S2629"$Invoke method(s) only conditionally.(×¨¤°ùÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(îÆÉ£
