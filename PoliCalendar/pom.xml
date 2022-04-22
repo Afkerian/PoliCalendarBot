@@ -11,7 +11,7 @@
     <groupId>org.example</groupId>
     <artifactId>PoliCalendar</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <dependencies>
+    <!--<dependencies>
         <dependency>
             <groupId>org.telegram</groupId>
             <artifactId>telegrambots</artifactId>
@@ -21,6 +21,28 @@
             <groupId>org.telegram</groupId>
             <artifactId>telegrambots-meta</artifactId>
             <version>5.7.1</version>
+        </dependency>
+    </dependencies>-->
+    <dependencies>
+        <dependency>
+            <groupId>org.telegram</groupId>
+            <artifactId>telegrambots</artifactId>
+            <version>5.7.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.telegram</groupId>
+            <artifactId>telegrambots</artifactId>
+            <version>5.7.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.36</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>1.7.36</version>
         </dependency>
     </dependencies>
 </project>
