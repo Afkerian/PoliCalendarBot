@@ -1,6 +1,8 @@
 
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
+import org.telegram.telegrambots.meta.api.methods.pinnedmessages.PinChatMessage;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
+import org.telegram.telegrambots.meta.api.methods.updatingmessages.DeleteMessage;
 import org.telegram.telegrambots.meta.api.methods.updatingmessages.EditMessageReplyMarkup;
 import org.telegram.telegrambots.meta.api.objects.Update;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.InlineKeyboardMarkup;
@@ -8,14 +10,14 @@ import org.telegram.telegrambots.meta.api.objects.replykeyboard.ReplyKeyboardMar
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.ReplyKeyboardRemove;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.InlineKeyboardButton;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.KeyboardRow;
+import org.telegram.telegrambots.meta.api.objects.voicechat.VoiceChatScheduled;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
-
 import java.util.ArrayList;
 import java.util.List;
-
 public class PoliCalendarBot extends TelegramLongPollingBot {
     public int aux_buttons =0;
-    public int message_id_inline_buttons =0;
+    public static int message_id_inline_buttons =0;
+
 
     /**
      * Se agregaron los comandos:
@@ -33,7 +35,6 @@ public class PoliCalendarBot extends TelegramLongPollingBot {
             if(command.equals("/buttons") && aux_buttons ==0){
                 sendCustomKeyboard(update.getMessage().getChatId().toString());
                 aux_buttons++;
-                System.out.println(aux_buttons);
             }else if(aux_buttons !=0){
                 message.setChatId(update.getMessage().getChatId().toString());
                 message.setText("Eliminando botones");
@@ -61,13 +62,6 @@ public class PoliCalendarBot extends TelegramLongPollingBot {
         if(update.hasCallbackQuery()){
             try {
                 execute(AnswerCallbackInlineButtons(update.getCallbackQuery().getMessage().getChatId(), update.getCallbackQuery().getData()));
-
-                EditMessageReplyMarkup edit = new EditMessageReplyMarkup();
-                edit.setChatId(update.getCallbackQuery().getMessage().getChatId().toString());
-                edit.setMessageId(message_id_inline_buttons);
-                edit.setReplyMarkup(null);
-                System.out.println(edit);
-                execute(edit);
             } catch (TelegramApiException e) {
                 throw new RuntimeException(e);
             }
@@ -98,58 +92,104 @@ public class PoliCalendarBot extends TelegramLongPollingBot {
         InlineKeyboardButton inlineKeyboardButton2 = new InlineKeyboardButton();
         InlineKeyboardButton inlineKeyboardButton3 = new InlineKeyboardButton();
 
-        inlineKeyboardButton1.setText("Btn1");
+        inlineKeyboardButton1.setText("Finalizado \uD83D\uDE0E");
         inlineKeyboardButton1.setCallbackData("Button1");
 
-        inlineKeyboardButton2.setText("Btn2");
+        inlineKeyboardButton2.setText("Ocultar \uD83E\uDD71");
         inlineKeyboardButton2.setCallbackData("Button2");
 
-        inlineKeyboardButton3.setText("Btn3");
+        inlineKeyboardButton3.setText("Postergar \uD83E\uDDD0");
         inlineKeyboardButton3.setCallbackData("Button3");
 
         List<InlineKeyboardButton> keyboardButtonsRow1 = new ArrayList<>();
-        List<InlineKeyboardButton> keyboardButtonsRow2 = new ArrayList<>();
 
         keyboardButtonsRow1.add(inlineKeyboardButton1);
         keyboardButtonsRow1.add(inlineKeyboardButton2);
-        keyboardButtonsRow2.add(inlineKeyboardButton3);
+        keyboardButtonsRow1.add(inlineKeyboardButton3);
 
         List<List<InlineKeyboardButton>> rowList = new ArrayList<>();
         rowList.add(keyboardButtonsRow1);
-        rowList.add(keyboardButtonsRow2);
         inlineKeyboardMarkup.setKeyboard(rowList);
 
-        SendMessage inlineKeyboardMessage = new SendMessage();
-        inlineKeyboardMessage.setChatId(Long.toString(chatId));
-        inlineKeyboardMessage.setText(InlineText);
-        inlineKeyboardMessage.setReplyMarkup(inlineKeyboardMarkup);
+        SendMessage inlineMessage = new SendMessage();
+        inlineMessage.setChatId(Long.toString(chatId));
+        inlineMessage.setText(InlineText);
+        inlineMessage.setReplyMarkup(inlineKeyboardMarkup);
 
-        return inlineKeyboardMessage;
+        return inlineMessage;
     }
     /**
-     *
+     * Envia respuesta al presionar un boton
      * @param chatId Se usa para configurar el mensaje que se retornara al aplastar un boton del inline Keyboard
      * @param option Opcion seleccionada por el usuario
      * @return Mensaje a imprimir para comprobar la respuesta al aplastar el botón
      */
-    public static SendMessage AnswerCallbackInlineButtons(long chatId, String option) {
+    public SendMessage AnswerCallbackInlineButtons(long chatId, String option) throws TelegramApiException {
 
         SendMessage message = new SendMessage();
         message.setChatId(Long.toString(chatId));
 
         switch (option) {
             case "Button1":
-                message.setText("Has seleccionado el botón 1");
+                message.setText("Has finalizado la tarea");
+                execute(delete_message(chatId, message_id_inline_buttons));
                 break;
             case "Button2":
-                message.setText("Has seleccionado el botón 2");
+                message.setText("Has ocultado la tarea, vago");
+                execute(delete_message(chatId, message_id_inline_buttons));
                 break;
             case "Button3":
-                message.setText("Has seleccionado el botón 3");
+                message.setText("Has postergado la tarea, pero te la recordaremos");
+                execute(pin_message(chatId, message_id_inline_buttons));
                 break;
         }
 
         return message;
+    }
+
+    /**
+     * Metodo usado para borrar los inline buttons, actualmente no se usa, pedir confirmacion
+     * @param chatId
+     * @param message_id
+     * @return
+     */
+    public static EditMessageReplyMarkup delete_inline_buttons(Long chatId, int message_id ) {
+
+        EditMessageReplyMarkup edit = new EditMessageReplyMarkup();
+        edit.setChatId(chatId.toString());
+        edit.setMessageId(message_id);
+        edit.setReplyMarkup(null);
+
+        return edit;
+    }
+
+    /**
+     * Borrar mensaje en caso de finalizar una tarea
+     * @param chatId
+     * @param message_id
+     * @return
+     */
+    public static DeleteMessage delete_message(Long chatId, int message_id ) {
+
+        DeleteMessage deleteMessage = new DeleteMessage();
+        deleteMessage.setChatId(chatId.toString());
+        deleteMessage.setMessageId(message_id);
+
+        return deleteMessage;
+    }
+    /**
+     * Pinear un mensaje para recordarle al usuario en caso de postergarla
+     * @param chatId
+     * @param message_id
+     * @return
+     */
+    public static PinChatMessage pin_message(Long chatId, int message_id ) {
+
+        PinChatMessage pin_message = new PinChatMessage();
+        pin_message.setChatId(Long.toString(chatId));
+        pin_message.setMessageId(message_id);
+
+        return pin_message;
     }
 
     /**
@@ -171,7 +211,6 @@ public class PoliCalendarBot extends TelegramLongPollingBot {
         row = new KeyboardRow();
         row.add("Row 2 Button 1");
         keyboard.add(row);
-
         keyboardMarkup.setKeyboard(keyboard);
         message.setReplyMarkup(keyboardMarkup);
 
