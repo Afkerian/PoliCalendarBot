@@ -11,7 +11,7 @@ import java.io.IOException;
 public class LinkLecture {
 
     /**
-     *
+     *Este metodo se encarga de la lectura del archivo ics generado por medio del enlace
      */
     public static void lectureICS(){
         FileInputStream fin;
