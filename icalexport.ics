@@ -1,0 +1,321 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+PRODID:-//Moodle Pty Ltd//NONSGML Moodle Version 2019111803.07//EN
+VERSION:2.0
+BEGIN:VEVENT
+UID:1716@aulasvirtuales.epn.edu.ec
+SUMMARY:Taller 1.8 pendiente
+DESCRIPTION:CASO DE ESTUDIO: CONFIDENCIALIDAD DE INFORMACIÓN EN ACME-LION\n
+	\nDISPONIBLE HASTA EL 30 DE NOVIEMBRE DE 2020 A LAS 11PM\n\nLa política de 
+	correo electrónico de ACME-LION requiere que los registros de clientes envi
+	ados por email externamente se cifren y tengan en la línea de asunto\, la p
+	alabra "confidencial". Esta política también establece que cualquier excepc
+	ión debe ser\naprobado por escrito por el Responsable de Registros Financie
+	ros. El administrador de correo electrónico asegura que el sistema tiene un
+	 uptime del 100%. ¿Qué técnicas usarías para auditar este objetivo de contr
+	ol?\n\nJustifique su respuesta\, e ingrese en el campo de texto de la tarea
+	.\n
+	
+CLASS:PUBLIC
+LAST-MODIFIED:20201130T133239Z
+DTSTAMP:20201205T224719Z
+DTSTART:20201201T040000Z
+DTEND:20201201T040000Z
+CATEGORIES:07_SIC816_GR2SIS_2020-2
+END:VEVENT
+BEGIN:VEVENT
+UID:82812@aulasvirtuales.epn.edu.ec
+SUMMARY:tarea de dominios 27002 sem 2020B pendiente
+DESCRIPTION:
+CLASS:PUBLIC
+LAST-MODIFIED:20201201T010233Z
+DTSTAMP:20201205T224719Z
+DTSTART:20201202T044000Z
+DTEND:20201202T044000Z
+CATEGORIES:07_SIC814_GR2SIS_2020-2
+END:VEVENT
+BEGIN:VEVENT
+UID:1719@aulasvirtuales.epn.edu.ec
+SUMMARY:Prueba 1 opens
+DESCRIPTION:
+CLASS:PUBLIC
+LAST-MODIFIED:20201202T185228Z
+DTSTAMP:20201205T224719Z
+DTSTART:20201202T190000Z
+DTEND:20201202T190000Z
+CATEGORIES:07_SIC816_GR2SIS_2020-2
+END:VEVENT
+BEGIN:VEVENT
+UID:90157@aulasvirtuales.epn.edu.ec
+SUMMARY:Prueba 1 closes
+DESCRIPTION:
+CLASS:PUBLIC
+LAST-MODIFIED:20201202T185228Z
+DTSTAMP:20201205T224719Z
+DTSTART:20201202T200000Z
+DTEND:20201202T200000Z
+CATEGORIES:07_SIC816_GR2SIS_2020-2
+END:VEVENT
+BEGIN:VEVENT
+UID:1710@aulasvirtuales.epn.edu.ec
+SUMMARY:Tarea 1.6 pendiente
+DESCRIPTION:Para esta tarea\, vamos a mirar la siguiente película:\n\nDe lo
+	 observado en la película "The Peaceful Warrior"\, ESCRIBA UN ENSAYO DE 500
+	 PALABRAS (1 PÁGINA EN WORD)\, justificando las razones por las que mantene
+	r una comunicación eficiente y atención a los detalles es fundamental para 
+	el proceso de auditoría.\n\nPara la tarea considere lo siguiente:\n\n	* Men
+	cione la importancia de identificar a los lideres de una organización y su 
+	nivel de decisión dentro de la empresa. Para ésto\, lea _Understanding the 
+	Corporate Organizational Structure en el Ch. 1 del libro CISA 2016. Pp. 45 
+	- 49_\n	* Mencione al menos 2 elementos fundamentales que observó en la pel
+	ícula y que son importantes para el proceso de auditoria\n	* Citar y refere
+	nciar al menos 5 fuentes bibliográficas usando el sistema de referencia Har
+	vard.\n\nLA TAREA LA DEBEN ENTREGAR EN UN ARCHIVO WORD O PDF EN ESTE REPOSI
+	TORIO HASTA EL MIÉRCOLES 02 DE DICIEMBRE A LAS 11PM\n
+	
+CLASS:PUBLIC
+LAST-MODIFIED:20201125T153521Z
+DTSTAMP:20201205T224719Z
+DTSTART:20201203T040000Z
+DTEND:20201203T040000Z
+CATEGORIES:07_SIC816_GR2SIS_2020-2
+END:VEVENT
+BEGIN:VEVENT
+UID:95119@aulasvirtuales.epn.edu.ec
+SUMMARY:1.4 Taller Packet Tracer: Representación de red (2) opens
+DESCRIPTION:
+CLASS:PUBLIC
+LAST-MODIFIED:20201203T135000Z
+DTSTAMP:20201205T224719Z
+DTSTART:20201203T130000Z
+DTEND:20201203T130000Z
+CATEGORIES:07_SIC854_GRUSIS_2020-2
+END:VEVENT
+BEGIN:VEVENT
+UID:95122@aulasvirtuales.epn.edu.ec
+SUMMARY:1.4 Taller Packet Tracer: Representación de red (2) closes
+DESCRIPTION:
+CLASS:PUBLIC
+LAST-MODIFIED:20201203T135000Z
+DTSTAMP:20201205T224719Z
+DTSTART:20201204T020000Z
+DTEND:20201204T020000Z
+CATEGORIES:07_SIC854_GRUSIS_2020-2
+END:VEVENT
+BEGIN:VEVENT
+UID:13057@aulasvirtuales.epn.edu.ec
+SUMMARY:TAREA 1: Estudiar el estado de Arte y  Bautizar tu proyecto pendien
+	te
+	
+DESCRIPTION:TAREA 1DE LA SEMANA\n\nLo primero que debes hacer es un estudio
+	 del estado del arte. Sigue las instrucciones del video COMO BUSCAR ARTÌCUL
+	OS ACADÉMICOS\n\nwatch [1]\nSube al aulta tu vitácora del estudio del estad
+	o de arte. Mìnimo 10 fuentes por cada estudiante. Si son dos seràn 20 fuent
+	es.\n\nTAREA 2 DE LA SEMANA\n\nSigue las instrucciones de la presentación: 
+	Tema y Título del Proyecto de Titulación. Te pido antes de enviar esta tare
+	a\, realizate la autoevaluación.\n\nPara esta tarea usa el formulario F-AA-
+	225\n\n2.1. Define claramente tu tema de PROYECTO\, determina el área de co
+	nocimiento y/o la línea de investigación.\n\n    Delimita el tema. Comprend
+	e: el ALCANCE (en dónde\, a quienes)\, el ENFOQUE: (áreas de conocimiento)\
+	n\n2.2. Detalla la bibliografía [2] base con la que iniciarás el proceso de
+	 estudio del estado de arte sobre el tema seleccionado. (Libros\, revistas 
+	científicas\, tesis\, bases de datos institucionales y de la web).\n\n2.3. 
+	Bautiza a tu proyecto de titulación\, este es un buen momento para ello. \n
+	\nCuando se investiga se sugiere la conveniencia que el título debe definir
+	se al final\, en el caso de un proyecto de titulación\, en el ámbito univer
+	sitario se requieren trámites administrativos que requieren poner un título
+	 al proyecto\, este título queda registrado y no puede alterarse durante el
+	 proceso de ejecución y graduación. Si el título cambia deberá hacerse la a
+	nulación de tema y proponer un nuevo tema de proyecto como un nuevo trámite
+	 administrativo\, justificando el hecho por escrito y con el aval del direc
+	tor de proyecto.\n\nNo olvides tomar en consideración las observaciones sug
+	eridas en los recursos enlazados sobre el tema.  \n\nLinks:\n------\n[1] ht
+	tps://www.youtube.com/watch?v=w-7l4rsx3TA\n[2] https://aulasvirtuales.epn.e
+	du.ec/mod/page/view.php?id=520099\n
+	
+CLASS:PUBLIC
+LAST-MODIFIED:20201109T211845Z
+DTSTAMP:20201205T224719Z
+DTSTART:20201205T045500Z
+DTEND:20201205T045500Z
+CATEGORIES:07_SIC812_GR1SIS_2020-2
+END:VEVENT
+BEGIN:VEVENT
+UID:13063@aulasvirtuales.epn.edu.ec
+SUMMARY:AUTOEVALUACIÓN 2: ESTADO DEL ARTE closes
+DESCRIPTION:Esta evaluación no tiene calificación\, la debes realizar una v
+	ez que tengas tu tema de titulación y hayas estudiado el estado del arte so
+	bre el tema. Tienes 15 días para hacerlo.\n\nContesta las preguntas del cue
+	stionario.\n
+	
+CLASS:PUBLIC
+LAST-MODIFIED:20201109T204644Z
+DTSTAMP:20201205T224719Z
+DTSTART:20201205T045500Z
+DTEND:20201205T045500Z
+CATEGORIES:07_SIC812_GR1SIS_2020-2
+END:VEVENT
+BEGIN:VEVENT
+UID:78589@aulasvirtuales.epn.edu.ec
+SUMMARY:TIPO DE INVESTIGACIÓN QUE DESARROLLARÁS cierran
+DESCRIPTION:Indica el tipo de trabajo que desarrollarás\, considerando el M
+	ÉTODO\, la MODALIDAD O DISEÑO DE LA INVESTIGACIÓN\, METODOLOGÍA \, TÉCNICAS
+	 e INSTRUMENTOS que posiblemente usarás en tu proyecto de titulación.\n\nRe
+	cuerda que estamos centrando el tema. La metodología\, técnicas o instrumen
+	tos podrían variar a futuro.\n
+	
+CLASS:PUBLIC
+LAST-MODIFIED:20201123T165634Z
+DTSTAMP:20201205T224719Z
+DTSTART:20201205T045500Z
+DTEND:20201205T045500Z
+CATEGORIES:07_SIC812_GR1SIS_2020-2
+END:VEVENT
+BEGIN:VEVENT
+UID:74629@aulasvirtuales.epn.edu.ec
+SUMMARY:Idea de negocio pendiente
+DESCRIPTION:Los coordinadores de cada grupo deberán incluir\, en formato PD
+	F\, un documento que refleje la idea de cada uno de los dos temas escogidos
+	 (principal y alterno) para el proyecto (Plan de Negocio) que se va a desar
+	rollar durante la materia.\n
+	
+CLASS:PUBLIC
+LAST-MODIFIED:20201205T160117Z
+DTSTAMP:20201205T224719Z
+DTSTART:20201206T040000Z
+DTEND:20201206T040000Z
+CATEGORIES:07_SIC884_GR1SIS_2020-2
+END:VEVENT
+BEGIN:VEVENT
+UID:89417@aulasvirtuales.epn.edu.ec
+SUMMARY:TAREA DE SEGURIDAD FISICA DOMINIO ISO27002 pendiente
+DESCRIPTION:
+CLASS:PUBLIC
+LAST-MODIFIED:20201129T223714Z
+DTSTAMP:20201205T224719Z
+DTSTART:20201206T050000Z
+DTEND:20201206T050000Z
+CATEGORIES:07_SIC814_GR2SIS_2020-2
+END:VEVENT
+BEGIN:VEVENT
+UID:90590@aulasvirtuales.epn.edu.ec
+SUMMARY:AVANCE SEMANA 30 NOV AL 7 DIC pendiente
+DESCRIPTION:USO EXCLUSIVO DE AVANCES DE PLANES COMPLETOS\n\nSEMANA 30 NOV A
+	L 7 DIC\n\nSI SON 2 ESTUDIANTES\, SUBE UN ESTUDIANTE (DURANTE TODO EL SEMES
+	TRE\, QUE ENVÍE SIEMPRE EL MISMO ESTUDIANTE)\n\nAPELLIDONOMBRE1.APELLIDONOM
+	BRE2\n\nEN WORD.\n
+	
+CLASS:PUBLIC
+LAST-MODIFIED:20201130T162030Z
+DTSTAMP:20201205T224719Z
+DTSTART:20201207T050000Z
+DTEND:20201207T050000Z
+CATEGORIES:07_SIC812_GR1SIS_2020-2
+END:VEVENT
+BEGIN:VEVENT
+UID:93049@aulasvirtuales.epn.edu.ec
+SUMMARY:1.3- Creaci&oacute\;n de una red P2P - Part 1
+DESCRIPTION:Estimados Estudiantes\, \n\nSubir a turnitin solo el archivo .d
+	oc del informe del laboratorio\, utilizando la nomenclatura respectiva #Gru
+	po-NombrePráctica.\n\n
+	
+CLASS:PUBLIC
+LAST-MODIFIED:20201202T040147Z
+DTSTAMP:20201205T224719Z
+DTSTART:20201207T170000Z
+DTEND:20201207T170000Z
+CATEGORIES:07_SIC854_GRUSIS_2020-2
+END:VEVENT
+BEGIN:VEVENT
+UID:57909@aulasvirtuales.epn.edu.ec
+SUMMARY:1.3 Práctica de laboratorio: Creación de una red P2P pendiente
+DESCRIPTION:OBJETIVOS\n\n1. Configuración básica entre un cliente y un serv
+	idor web.\n\n2. Verificación de la conectividad a través del comando Ping y
+	 captura de paquetes HTTP\n\nTOPOLOGÍA\n\nTABLA DE DIRECCIONAMIENTO\n\n		DI
+	SPOSITIVO \n		INTERFAZ\n		DIRECCIÓN IP\n		MÁSCARA DE SUBRED\n\n		Server1/Cl
+	iente1 Web \n		NIC\n		192.168.57.1\n		 255.255.255.0\n\n		Server2/Cliente2 
+	Web \n		NIC\n		192.168.57.2\n		255.255.255.0\n\nACTIVIDADES \n\n1. Realice 
+	la práctica de laboratorio en el formato [1] específico \n\n2. En esta acti
+	vidad\, suba el archivo .pkt  utilizando la nomenclatura respectiva (#Grupo
+	-NombrePráctica-ApellidoNombre).\n\n\nLinks:\n------\n[1] https://aulasvirt
+	uales.epn.edu.ec/mod/resource/view.php?id=894201\n
+	
+CLASS:PUBLIC
+LAST-MODIFIED:20201202T212612Z
+DTSTAMP:20201205T224719Z
+DTSTART:20201207T220000Z
+DTEND:20201207T220000Z
+CATEGORIES:07_SIC854_GRUSIS_2020-2
+END:VEVENT
+BEGIN:VEVENT
+UID:13066@aulasvirtuales.epn.edu.ec
+SUMMARY:TAREA: Escribir la Definición del Problema
+DESCRIPTION:YA TIENES UN TEMA Y HAS CUMPLIDO CON EL ESTUDIO DEL ESTADO DE A
+	RTE\; AHORA\, REQUIERES ESCRIBIR CUÁL ES EL PROBLEMA QUE REQUIERE UNA SOLUC
+	IÓN DE TU PARTE.\n\nejemplo:\n\n1. Toma como área de conocimiento la INTELI
+	GENCIA DEL NEGOCIO (Business Inteligent)\n 2. Elige como subtema "APLICACIO
+	NES para inteligencia del negocio"\n 3. Consulta algunas fuentes documental
+	es para saber cuál es la situación  Latinoamericana\, Nacional y Local\, co
+	n respecto a este tema (marco histórico)\n    Busca si hay investigaciones 
+	en el extranjero\, en Ecuador\, en la EPN\, tesis (marco teórico y marco co
+	nceptual). Si es un tema que puede tener nomativas\, reglamentos o leyes\, 
+	     revisa (marco legal) y demás fuentes que podrían ayudar a fundamentar 
+	la definición del problema de tu proyecto de titulación. No te olvides del 
+	marco contextual.\n 5. Analiza la documentación y organiza ideas. Puedes ay
+	udarte con un mapa conceptual si el tema es muy complejo o simplemente esqu
+	ematizando tus ideas:\n1. idea1 (la más importante)\n1.1 tema1 de la idea1\
+	n1.2 tema2 de la idea1\n2. idea2\n2.1 tema1 de la idea2\n...\n\n 6. Sinteti
+	za en una redacción usando como referencia lo investigado\, explicando cual
+	 es la problemática.\n\n7. Aplica estilo IEEE o APA y escribe tu bibliograf
+	ía [1] (la FIS usa IEEE) . Puedes ayudarte con el enlace https://www.citeth
+	isforme.com/es [2]\n\n USA EL FORMULARIO F-AA-225\, ENVIA EN WORD\, NO EN P
+	DF\nSI SON 2 ESTUDIANTES SUBE SOLO UN ESTUDIANTE APELLIDOESTU1.APELLIDOESTU
+	2.\n\n\n\nLinks:\n------\n[1] https://aulasvirtuales.epn.edu.ec/mod/page/vi
+	ew.php?id=520099\n[2] https://www.citethisforme.com/es\n
+	
+CLASS:PUBLIC
+LAST-MODIFIED:20200606T105948Z
+DTSTAMP:20201205T224719Z
+DTSTART:20201211T212700Z
+DTEND:20201211T212700Z
+CATEGORIES:07_SIC812_GR1SIS_2020-2
+END:VEVENT
+BEGIN:VEVENT
+UID:14518@aulasvirtuales.epn.edu.ec
+SUMMARY:EVALUACIÓN 3: El problema closes
+DESCRIPTION:Autoevaluate y verifica que lo que has escrito cumple con todos
+	 los requisitos de la EPN\, previo a enviar la tarea\n
+	
+CLASS:PUBLIC
+LAST-MODIFIED:20201109T210223Z
+DTSTAMP:20201205T224719Z
+DTSTART:20201212T045500Z
+DTEND:20201212T045500Z
+CATEGORIES:07_SIC812_GR1SIS_2020-2
+END:VEVENT
+BEGIN:VEVENT
+UID:13072@aulasvirtuales.epn.edu.ec
+SUMMARY:TAREA: Escribir las justificaciones y objetivos del proyecto pendie
+	nte
+	
+DESCRIPTION: USA EL FORMULARIO F-AA-225\n\n1. Tomando como referencia bibli
+	ográfica lo investigado en el estado de arte\, ESCRIBE LAS JUSTIFICACIONES 
+	TEÓRICA\, METODOLÓGICA Y PRÁCTICA. No olvides que no se pide transcribir lo
+	 que dicen las teorías\; debes escribir lo que se te solicita CON REFERENCI
+	AS BIBLIOGRÁFICAS.\n\n2. ESCRIBE EL OBJETIVO GENERAL CUIDANDO QUE TENGA ARM
+	ONÍA CON EL TÍTULO Y LA DEFINICIÓN DEL PROBLEMA\n\n3. ESCRIBE LOS OBJETIVOS
+	 ESPECÍFICOS CUIDANDO QUE SE CUMPLAN CON  EL OBJETIVO GENERAL\n\n4. Somete 
+	las justificaciones y objetivos a las rúbricas EPN para aprobación del plan
+	. Se expone en esta pestañas las rúbricas de justificaciones y objetivos.\n
+	\n4. Aplica estilo IEEE o APA y escribe la BIBLIOGRAFÍA [1].\n\n \n\nLinks:
+	\n------\n[1] https://aulasvirtuales.epn.edu.ec/mod/page/view.php?id=520099
+	\n
+	
+CLASS:PUBLIC
+LAST-MODIFIED:20201109T211222Z
+DTSTAMP:20201205T224719Z
+DTSTART:20201221T045500Z
+DTEND:20201221T045500Z
+CATEGORIES:07_SIC812_GR1SIS_2020-2
+END:VEVENT
+END:VCALENDAR
