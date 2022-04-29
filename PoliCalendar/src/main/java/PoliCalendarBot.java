@@ -9,6 +9,7 @@ import java.util.List;
 
 public class PoliCalendarBot extends TelegramLongPollingBot {
 
+
     @Override
     public void onUpdateReceived(Update update) {
         SendMessage message = new SendMessage();
@@ -24,7 +25,9 @@ public class PoliCalendarBot extends TelegramLongPollingBot {
             }
         }
 
+
     }
+
 
     public String getBotUsername() {
         return TokenReader.readUserName();

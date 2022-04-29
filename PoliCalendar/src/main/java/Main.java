@@ -10,6 +10,7 @@ public class Main {
             TelegramBotsApi botsApi = new TelegramBotsApi(DefaultBotSession.class);
             botsApi.registerBot(new PoliCalendarBot());
             System.out.println("Hello, World!");
+            LinkLecture.lectureICS();
         } catch (TelegramApiException e) {
             e.printStackTrace();
         }
