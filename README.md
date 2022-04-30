@@ -143,7 +143,10 @@ Puede ver el código de esos bots en
 [TelegramBotsExample](https://github.com/rubenlagus/TelegramBotsExample) 
 proyectos.
 ---
+<<<<<<< HEAD
 
+=======
+>>>>>>> c418df248fdc6830d333ff39644159f022a2fb1d
 ## Telegram Bot API
 Esta biblioteca usa [Telegram bot API](https://core.telegram.org/bots), puede encontrar más información siguiendo el enlace.
 
@@ -151,11 +154,17 @@ Esta biblioteca usa [Telegram bot API](https://core.telegram.org/bots), puede en
 Siéntase libre de crear tantos [issues](https://github.com/Afkerian/PoliCalendarBot/issues) como necesites o únete al chat 
 [chat](https://t.me/+kLJhsEi0URA5ZGMx).
 
+<<<<<<< HEAD
 ## Powered by:
 <p align="center">
     <a href="https://www.jetbrains.com/"><img src="jetbrains.png" width="75></a>
     <a href="https://www.java.com/es/"><img src="java.png" width="50"></a>
     <a href="https://www.java.com/es/"><img src="maven.png" width="175"></a>
+=======
+## Powered by Intellij
+<p align="center">
+   <a href="https://www.jetbrains.com/"><img src="https://github.com/rubenlagus/TelegramBots/blob/master/jetbrains.png?raw=true" width="75"></a>
+>>>>>>> c418df248fdc6830d333ff39644159f022a2fb1d
 </p>
 
 ---
