@@ -85,11 +85,11 @@ Para empezar a hacer una contribución:
    $ git remote add upstream https://github.com/Afkerian/PoliCalendarBot/
    ```
 
-1. Tire de los cambios ascendentes en la rama `bigFix` de sus repositorios locales:
+1. Tire de los cambios ascendentes en la rama `bugFix` de sus repositorios locales:
 
    ```shell
-   $ git checkout bigFix
-   $ git pull upstream development && git push origin development
+   $ git checkout bugFix
+   $ git pull upstream development && git push origin bugFix
    ```
 
 1. Cree una nueva rama desde la rama `desarrollo`:
@@ -112,10 +112,10 @@ Para empezar a hacer una contribución:
    **IMPORTANTE:** Su mensaje de confirmación debe estar en tiempo presente y debe describir lo que la confirmación, cuando se aplica, hace al código, no lo que usted hizo con el código.
 
    ```concha
-   $ git push -u origin <TU-NUEVA-SUCURSAL>
+   $ git push -u origin <TU-NUEVA-RAMA>
    ```
 
-1. Desde su repositorio de GitHub bifurcado, abra una solicitud de extracción en la rama que contiene sus contribuciones. Diríjase a la rama `bigFix` del proyecto para la solicitud de incorporación de cambios.
+1. Desde su repositorio de GitHub bifurcado, abra una solicitud de extracción en la rama que contiene sus contribuciones. Diríjase a la rama `bugFix` del proyecto para la solicitud de incorporación de cambios.
 
 1. En este punto, su contribución ha sido enviada para revisión. Tenga paciencia mientras se revisa su contribución, ya que esto puede llevar algún tiempo. Mientras tanto, si hay preguntas o comentarios sobre su contribución, responda y/o actualice con compromisos futuros.
 
