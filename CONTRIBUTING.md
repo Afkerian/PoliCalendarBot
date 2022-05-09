@@ -92,10 +92,10 @@ Para empezar a hacer una contribución:
    $ git pull upstream development && git push origin bugFix
    ```
 
-1. Cree una nueva rama desde la rama `desarrollo`:
+1. Cree una nueva rama desde la rama `bugFix`:
 ![rama](https://help.github.com/assets/images/help/branch/branch-selection-dropdown.png)
 
-   **IMPORTANTE:** Asegúrate de estar primero en la rama `desarrollo`.
+   **IMPORTANTE:** Asegúrate de estar primero en la rama `bugFix`.
 
    ```shell
    $ git checkout -b <YOUR-NEW-BRANCH>
